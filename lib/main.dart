@@ -28,7 +28,7 @@ class MyHomePage extends StatelessWidget {
     return Scaffold(
       appBar: AppBar(centerTitle: true, title: Text('タイトル', style: titleStyle(),),),
       body: Container(
-        alignment: Alignment.topCenter,
+        alignment: Alignment.topLeft,
         child: Column(
           children: [
             SizedBox(height: 40,),
